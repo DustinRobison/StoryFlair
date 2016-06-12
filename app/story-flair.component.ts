@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { User } from './shared/user';
+import { Story } from './shared/story';
+
 @Component({
   moduleId: module.id,
   selector: 'story-flair-app',
@@ -7,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrls: ['story-flair.component.css']
 })
 export class StoryFlairAppComponent {
-  title = 'story-flair works!';
+  title: string = 'story-flair works! kinda';
 }
